@@ -1,0 +1,159 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+header img {
+    padding-left: 20px;
+}
+
+header a {
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 1260px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.hero h1 a {
+    font-size: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+.herotitle {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heropages {
+    height: 400px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}    
+
+.heropages h1 {
+    font-size: 100px;
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: right;
+    color: black;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+footer p {
+    padding-left: 20px;
+}
+.examplesection {
+    background-color: lightgray;
+    height: 720px;
+    border-top: 1px solid black;
+}
+
+.examplesection h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.workex {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work1 {
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.teamsection {
+    background-color: skyblue;
+    height: 720px;
+    border-top: 1px solid black;
+}
+
+.teamsection h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.teampart {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teampart-item {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.teampart-item h4 {
+    font-size: 43px;
+    margin: 10px auto;
+    color: white;
+}
+
+.teampart-item h5 {
+    margin: 10px;
+}
+
+#laura {
+    background-image: url(../images/laura.jpg);
+    background-repeat: round;
+    height: 300px;
+    width: 300px;
+    
+}
+
+#lisa {
+    background-image: url(../images/lisa.jpeg);
+    background-repeat: round;
+    height: 300px;
+    width: 300px;
+}
