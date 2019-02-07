@@ -11,20 +11,32 @@ header {
     border-bottom: 1px solid black;
     background-color: white;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 1;
+    margin: 0;
 }
 
-header img {
+header a img {
     padding-left: 20px;
 }
 
-header a {
+header nav a {
     color: black;
-    padding: 0 20px;
     text-decoration: none;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding: 22px 20px;
+    margin: 0;
+}
+
+.navbtn:hover {
+  background: skyblue;
+  border: 1px solid black;
+  cursor: pointer; 
+  color: black;
+  transition: background .5s;
 }
 
 .hero {
@@ -105,7 +117,7 @@ footer p {
 }
 
 .teamsection {
-    background-color: skyblue;
+    background-color: white;
     height: 720px;
     border-top: 1px solid black;
 }
@@ -136,11 +148,11 @@ footer p {
 .teampart-item h4 {
     font-size: 43px;
     margin: 10px auto;
-    color: white;
 }
 
 .teampart-item h5 {
     margin: 10px;
+    color: darkslategrey;
 }
 
 #laura {
@@ -156,4 +168,19 @@ footer p {
     background-repeat: round;
     height: 300px;
     width: 300px;
+}
+
+
+nav {
+    margin: 0;
+}
+
+.contactpage {
+    border-top: 1px solid black;
+    height: 750px;
+    text-align: center;
+}
+
+.contactpage h5 {
+    margin-top: 100px;
 }
